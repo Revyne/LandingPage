@@ -280,3 +280,46 @@ main .third footer {
   font-size: 26px;
   font-weight: bold;
 }
+
+/* Main Fourth Section */
+
+main .fourth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 250px;
+  min-height: 100vh;
+}
+
+main .fourth .call-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+  background-color: #3882f6;
+  border-radius: 10px;
+  padding: 0 200px;
+}
+
+main .fourth .call-container div h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+main .fourth .call-container div p {
+  color: #e5e7eb;
+  font-size: 20px;
+}
+
+main .fourth .call-container button {
+  background-color: #3882f6;
+  border: 2px solid white;
+  color: white;
+  font-size: 20px;
+  padding: 10px 50px;
+  border-radius: 10px;
+}
+
+/* Footer */
