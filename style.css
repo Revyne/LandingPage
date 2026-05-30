@@ -209,4 +209,5 @@ main .first div button {
   border-radius: 8px;
   padding: 8px 25px;
   width: 150px;
+  cursor: pointer;
 }
