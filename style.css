@@ -323,3 +323,19 @@ main .fourth .call-container button {
 }
 
 /* Footer */
+
+.end-content {
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  align-items: center;
+  padding: 28px 300px;
+}
+
+.end-content p {
+  color: #e5e7eb;
+}
+
+.copy-logo {
+  padding: 0 10px;
+}
