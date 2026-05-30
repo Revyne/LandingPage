@@ -170,9 +170,9 @@ header nav ul a {
 main .first {
   display: flex;
   background-color: #1f2937;
-  padding: 100px 300px;
+  padding: 0px 300px;
   gap: 100px;
-  height: 300px;
+  min-height: 100vh;
 }
 
 main .first div {
@@ -184,27 +184,29 @@ main .first div {
 }
 
 main .first figure {
-  background-color: grey;
+  background-color: #6d747d;
   width: 50%;
+  margin: 300px 0;
 }
 
 main .first div h1 {
   color: #f9faf8;
-  font-size: 48px;
+  font-size: 60px;
   font-weight: 900;
 }
 
 main .first div p {
   color: #e5e7eb;
-  font-size: 18px;
+  font-size: 25px;
 }
 
 main .first div button {
   background-color: #3882f6;
   color: #e5e7eb;
   font-weight: 600;
+  font-size: 20px;
   border: 0px;
   border-radius: 8px;
   padding: 8px 25px;
-  width: 100px;
+  width: 150px;
 }
