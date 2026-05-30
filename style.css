@@ -256,3 +256,27 @@ main .second ul li p {
 }
 
 /* Main Third Section */
+
+main .third blockquote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 400px;
+  min-height: 100vh;
+  background-color: #e5e7eb;
+}
+
+main .third blockquote p {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 50px;
+}
+
+main .third footer {
+  margin-left: auto;
+  font-size: 26px;
+  font-weight: bold;
+}
